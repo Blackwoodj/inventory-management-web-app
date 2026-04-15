@@ -1,0 +1,235 @@
+/* Jonathan Blackwood 
+ HND Software Development 
+ Style page for website
+ 23/05/2023 */
+
+html {
+  height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: #c3b9b7;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  background: none;
+  min-height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 1vh;
+  background-color: #816f7d;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logoimg {
+  width: 90px;
+  height: 77px;
+  padding-bottom: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.companyName {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+
+.nav-links {
+  background: none;
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav-links li {
+  list-style: none;
+  z-index: 2;
+}
+
+.footer {
+  background-color: #816f7d;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.centre-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.centre-top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+.centre-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centre-container button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.week-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.schedule-table {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.staff-form {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 400px; 
+}
+
+.stock-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+  max-width: 400px; 
+  padding-bottom: 10px;
+}
+.stock-form input[type="text"] {
+  margin-bottom: 10px; 
+}
+
+.login-form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-form h1 {
+  margin-top: 0;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.login-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.success-message {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.stock-table {
+  border-collapse: collapse;
+}
+
+.stock-table th,
+.stock-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  background-color: white; 
+}
+
+.stock-table th {
+  background-color: #eaeaea; 
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20vh;
+  width: 100%;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
