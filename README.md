@@ -1,7 +1,7 @@
 # Inventory Management Web Application
 
 ## Overview
-This project is a web application that allows users to register, log in, and manage stock inventory.
+This project is a web application that allows users to log in and manage stock inventory.
 
 The system supports adding, updating, and removing stock items, simulating a hospitality management system.
 
